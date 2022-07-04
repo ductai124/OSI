@@ -6,17 +6,17 @@
 ***
 # Mục lục
 [I. Mô hình OSI là gì](https://github.com/ductai124/OSI/blob/main/README.md#im%C3%B4-h%C3%ACnh-osi-l%C3%A0-g%C3%AC)
-    [1. ]()
-    [2. ]()
-    [3. ]()
-    [4. ]()
-    [5. ]()
-    [6. ]()
-    [7. ]()
- [II. ]()
- [III. ]()
-    [1. ]()
-    [2. ]()
+    [1. ](https://github.com/ductai124/OSI/blob/main/README.md#1-t%E1%BA%A7ng-v%E1%BA%ADt-l%C3%BD-physical-layer)
+    [2. ](https://github.com/ductai124/OSI/blob/main/README.md#2-t%E1%BA%A7ng-li%C3%AAn-k%E1%BA%BFt-datalink)
+    [3. ](https://github.com/ductai124/OSI/blob/main/README.md#3-t%E1%BA%A7ng-m%E1%BA%A1ng-network)
+    [4. ](https://github.com/ductai124/OSI/blob/main/README.md#4-t%E1%BA%A7ng-v%E1%BA%ADn-chuy%E1%BB%83n-transport)
+    [5. ](https://github.com/ductai124/OSI/blob/main/README.md#5-t%E1%BA%A7ng-phi%C3%AAn-session)
+    [6. ](https://github.com/ductai124/OSI/blob/main/README.md#6-t%E1%BA%A7ng-tr%C3%ACnh-di%E1%BB%85n-presentation)
+    [7. ](https://github.com/ductai124/OSI/blob/main/README.md#7-t%E1%BA%A7ng-%E1%BB%A9ng-d%E1%BB%A5ng-application)
+ [II. ](https://github.com/ductai124/OSI/blob/main/README.md#ii-c%C3%A1c-giao-th%E1%BB%A9c-trong-osi)
+ [III. ](https://github.com/ductai124/OSI/blob/main/README.md#iii-ph%C6%B0%C6%A1ng-th%E1%BB%A9c-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-c%E1%BB%A7a-m%C3%B4-h%C3%ACnh-osi)
+    [1. ](https://github.com/ductai124/OSI/blob/main/README.md#1-b%C3%AAn-m%C3%A1y-g%E1%BB%ADi)
+    [2. ](https://github.com/ductai124/OSI/blob/main/README.md#1-b%C3%AAn-m%C3%A1y-nh%E1%BA%ADn)
 ***
 # ***I.	Mô hình OSI là gì***
 * Mô hình kết nối các hệ thống mở OSI là mô hình căn bản về các tiến trình truyền thông, thiết lập các tiêu chuẩn kiến trúc mạng ở mức Quốc tế, là cơ sở chung để các hệ thống khác nhau có thể liên kết và truyền thông được với nhau. Mô hình OSI tổ chức các giao thức truyền thông thành 7 tầng, mỗi một tầng giải quyết một phần hẹp của tiến trình truyền thông, chia tiến trình truyền thông thành nhiều tầng và trong mỗi tầng có thể có nhiều giao thức khác nhau thực hiện các nhu cầu truyền thông cụ thể.
@@ -70,7 +70,7 @@ nối,…
 * Tại tầng 3 (Tầng mạng/Network) các phần dữ liệu vừa được chia nhỏ lại tiếp tục được chia ra thành nhiều gói thông tin khác nhau. Sau đó các gói thông tin sẽ được vận chuyển theo đúng tuyến đường đi đã được định sẵn tới tầng 2.
 * Tại tầng 2 (Tầng liên kết/Datalink) các gói thông tin nhỏ từ tầng 3 tiếp tục được cắt nhỏ thành những Frame tại đây, đồng thời được bổ sung thông tin kiểm tra các gói tin chứa dữ liệu này để có thể kiểm tra ở đầu máy nhận khi thông tin tới.
 * Tại tầng cuối, tầng 1 (Tầng vật lý/Physical) các Frame khi được chuyển đến đây sẽ được chuyển thành các chuỗi bit nhị phân, sau đó được đưa lên, phát tin hiệu trên các công cụ truyền dẫn (dây cáp quang) để chuyển tới được máy nhận.
-## ***1. Bên máy nhận***
+## ***2. Bên máy nhận***
 * Dữ liệu từ máy gửi đến tiếp xúc đầu tiên với tầng 1 (Tầng vật lý/Physical) của máy nhận. Ở đây, các dữ liệu sẽ được kiểm tra đồng bộ và đưa các chuỗi bit nhị phân vào vùng đệm, sau đó là gửi thông báo cho Tầng 2 “dữ liệu đã được nhận).
 * Tại tầng 2 (Tầng liên kết/Datalink) kiểm tra xem có lỗi nào đối với các Frame dữ liệu vừa gửi không. Khi phát hiện Frame bị lỗi thì sẽ hủy bỏ Frame đó. Tiếp đến là quá trình kiểm tra địa chỉ Data Link (địa chỉ MAC Address) có khớp với địa chỉ máy nhận hay không. Kiểm tra đúng, Data Link sẽ gỡ bỏ Header để chuyển dữ liệu đến tầng 3.
 * Tại tầng 3 (Tầng mạng/Network) tiếp nhận và kiểm tra địa chỉ gói tin dữ liệu có phải là địa chỉ máy nhận không (địa chỉ ở tầng này là IP). Nếu đúng các gói tin dữ liệu tiếp tục được gỡ bở Header của tầng Network rồi được chuyển tới tầng 4.
