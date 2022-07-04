@@ -5,9 +5,9 @@
 
 ***
 # Mục lục
-[I. Mô hình OSI là gì](https://github.com/ductai124/OSI/blob/main/README.md#im%C3%B4-h%C3%ACnh-osi-l%C3%A0-g%C3%AC)
+## [I. Mô hình OSI là gì](https://github.com/ductai124/OSI/blob/main/README.md#im%C3%B4-h%C3%ACnh-osi-l%C3%A0-g%C3%AC)
 
-    [1. Tầng vật lý(Physical layer)](https://github.com/ductai124/OSI/blob/main/README.md#1-t%E1%BA%A7ng-v%E1%BA%ADt-l%C3%BD-physical-layer)
+### [1. Tầng vật lý(Physical layer)](https://github.com/ductai124/OSI/blob/main/README.md#1-t%E1%BA%A7ng-v%E1%BA%ADt-l%C3%BD-physical-layer)
 <!--    
     [2. Tầng liên kết](https://github.com/ductai124/OSI/blob/main/README.md#2-t%E1%BA%A7ng-li%C3%AAn-k%E1%BA%BFt-datalink)
     
@@ -22,13 +22,13 @@
     [7. Tầng Ứng dụng](https://github.com/ductai124/OSI/blob/main/README.md#7-t%E1%BA%A7ng-%E1%BB%A9ng-d%E1%BB%A5ng-application)
 -->
     
- [II. Các giao thức trong OSI](https://github.com/ductai124/OSI/blob/main/README.md#ii-c%C3%A1c-giao-th%E1%BB%A9c-trong-osi)
+ ## [II. Các giao thức trong OSI](https://github.com/ductai124/OSI/blob/main/README.md#ii-c%C3%A1c-giao-th%E1%BB%A9c-trong-osi)
  
- [III. Phương thức hoạt động của mô hình OSI](https://github.com/ductai124/OSI/blob/main/README.md#iii-ph%C6%B0%C6%A1ng-th%E1%BB%A9c-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-c%E1%BB%A7a-m%C3%B4-h%C3%ACnh-osi)
+ ## [III. Phương thức hoạt động của mô hình OSI](https://github.com/ductai124/OSI/blob/main/README.md#iii-ph%C6%B0%C6%A1ng-th%E1%BB%A9c-ho%E1%BA%A1t-%C4%91%E1%BB%99ng-c%E1%BB%A7a-m%C3%B4-h%C3%ACnh-osi)
  
-    [1. Bên máy gửi](https://github.com/ductai124/OSI/blob/main/README.md#1-b%C3%AAn-m%C3%A1y-g%E1%BB%ADi)
+    ### [1. Bên máy gửi](https://github.com/ductai124/OSI/blob/main/README.md#1-b%C3%AAn-m%C3%A1y-g%E1%BB%ADi)
     
-    [2. Bên máy nhận](https://github.com/ductai124/OSI/blob/main/README.md#1-b%C3%AAn-m%C3%A1y-nh%E1%BA%ADn)
+    ### [2. Bên máy nhận](https://github.com/ductai124/OSI/blob/main/README.md#1-b%C3%AAn-m%C3%A1y-nh%E1%BA%ADn)
     
 ***
 # ***I.	Mô hình OSI là gì***
