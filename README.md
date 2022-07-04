@@ -5,12 +5,18 @@
 
 ***
 # Mục lục
-[1. Mô hình OSI là gì](https://github.com/ductai124/OSI/blob/main/README.md#im%C3%B4-h%C3%ACnh-osi-l%C3%A0-g%C3%AC)
-
-[2. ]()
-
-[3. ]()
-
+[I. Mô hình OSI là gì](https://github.com/ductai124/OSI/blob/main/README.md#im%C3%B4-h%C3%ACnh-osi-l%C3%A0-g%C3%AC)
+    [1. ]()
+    [2. ]()
+    [3. ]()
+    [4. ]()
+    [5. ]()
+    [6. ]()
+    [7. ]()
+ [II. ]()
+ [III. ]()
+    [1. ]()
+    [2. ]()
 ***
 # ***I.	Mô hình OSI là gì***
 * Mô hình kết nối các hệ thống mở OSI là mô hình căn bản về các tiến trình truyền thông, thiết lập các tiêu chuẩn kiến trúc mạng ở mức Quốc tế, là cơ sở chung để các hệ thống khác nhau có thể liên kết và truyền thông được với nhau. Mô hình OSI tổ chức các giao thức truyền thông thành 7 tầng, mỗi một tầng giải quyết một phần hẹp của tiến trình truyền thông, chia tiến trình truyền thông thành nhiều tầng và trong mỗi tầng có thể có nhiều giao thức khác nhau thực hiện các nhu cầu truyền thông cụ thể.
