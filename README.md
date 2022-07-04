@@ -7,9 +7,9 @@
 # Mục lục
 ## [I. Mô hình OSI là gì](https://github.com/ductai124/OSI/blob/main/README.md#im%C3%B4-h%C3%ACnh-osi-l%C3%A0-g%C3%AC)
 
-1.  ### [1. Tầng vật lý(Physical layer) ](https://github.com/ductai124/OSI/blob/main/README.md#1-t%E1%BA%A7ng-v%E1%BA%ADt-l%C3%BD-physical-layer)
+*  ### [1. Tầng vật lý(Physical layer) ](https://github.com/ductai124/OSI/blob/main/README.md#1-t%E1%BA%A7ng-v%E1%BA%ADt-l%C3%BD-physical-layer)
    
-2.  ### [2. Tầng liên kết (Datalink) ](https://github.com/ductai124/OSI/blob/main/README.md#2-t%E1%BA%A7ng-li%C3%AAn-k%E1%BA%BFt-datalink)
+*  ### [2. Tầng liên kết (Datalink) ](https://github.com/ductai124/OSI/blob/main/README.md#2-t%E1%BA%A7ng-li%C3%AAn-k%E1%BA%BFt-datalink)
     
 * ### [3. Tầng mạng (Network) ](https://github.com/ductai124/OSI/blob/main/README.md#3-t%E1%BA%A7ng-m%E1%BA%A1ng-network)
     
